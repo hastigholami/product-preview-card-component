@@ -1,9 +1,9 @@
 body {
-
+    background: hsl(30, 38%, 92%);
 }
 
 .product-preview {
-
+    background-color: hsl(0, 0%, 100%);
 }
 
 .product-image {
@@ -15,18 +15,22 @@ body {
 }
 
 .product-type {
-
+    color: hsl(228, 12%, 48%);
 }
 
 .product-name {
-
+    color: hsl(212, 21%, 14%);
 }
 
 .perfume-note {
-
+    color: hsl(228, 12%, 48%);
 }
 
 .product-price {
-
+    color: hsl(158, 42%, 18%);
 }
 
+button {
+    background-color: hsl(158, 42%, 18%);
+    color: hsl(158, 36%, 37%);
+}
