@@ -26,10 +26,10 @@ A simple responsive QR Code card component built using **HTML** and **CSS**. Thi
 
 In this project, I practiced:
 - link Google Fonts in an HTML document and apply them using CSS
-- use '<br>' tag to break a paragraph into multiple lines
-- use the '<del>' tag to display strikethrough (deleted) text
+- use *br* tag to break a paragraph into multiple lines
+- use the *del* tag to display strikethrough (deleted) text
 - apply line-height in CSS to adjust spacing between lines of text
-- use '&nbsp;' to add non-breaking spaces between word
+- use *&nbsp* to add non-breaking spaces between word
 - structure a semantic and clean README.md file
 - center content vertically and horizontally using Flexbox
 - upload a live version of my project with GitHub Pages 
