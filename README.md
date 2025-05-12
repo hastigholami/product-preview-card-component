@@ -4,7 +4,7 @@
 
 # Product preview card component
 
-A simple responsive QR Code card component built using **HTML** and **CSS**. This project is part of a challenge from [Frontend Mentor](https://www.frontendmentor.io).
+A Product preview card component built using **HTML** and **CSS**. This project is part of a challenge from [Frontend Mentor](https://www.frontendmentor.io).
 
 ## Overview
 
