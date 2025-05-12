@@ -1,5 +1,10 @@
 body {
     background: hsl(30, 38%, 92%);
+    width: 1500px;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
 
 .product-preview {
@@ -7,14 +12,19 @@ body {
     width: 670px;
     height: 500px;
     display: flex;
+    border-radius: 10px;
 }
 
 .product-image {
     width: 500px;
     height: 500px;
     display: flex;
+    border-radius: 10px;
 }
 
+img {
+    border-radius: 10px 0px 0px 10px;
+}
 
 .product-info {
     padding: 30px;
@@ -60,7 +70,10 @@ button {
     padding: 15px 82px;
     display: inline;
     justify-content: center;
+    border: solid;
+    border-radius: 10px;
 }
+
 .add-to-card-icon {
     display: inline;
     justify-content: center;     
