@@ -13,7 +13,6 @@
 
 - HTML
 - CSS 
-- Flexbox
 
 ## My Process
 
