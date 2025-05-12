@@ -24,36 +24,44 @@ body {
 .product-type {
     color: hsl(228, 12%, 48%);
     margin: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
 }
 
 .product-name {
     color: hsl(212, 21%, 14%);
-    margin: 10px 0px;
+    margin: 0px 0px;
     font-size: 45px;
     font-weight: bold;
+    font-family: "Fraunces", serif;
     
 }
 
 .perfume-note {
     color: hsl(228, 12%, 48%);
     margin: 20px 0px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
 }
 
 .product-price {
-    color: hsl(158, 42%, 18%);
-    font-size: 30px;
+    color: hsl(158, 36%, 37%);
+    font-size: 28px;
+    font-family: "Fraunces", serif;
+    font-weight: bold;
 }
 
 button {
-    background-color: hsl(158, 42%, 18%);
-    color: hsl(158, 36%, 37%);
-    font-size: 20px;
-    padding: 15px 70px;
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    padding: 15px 82px;
     display: inline;
     justify-content: center;
 }
 .add-to-card-icon {
-    margin: 5px;
     display: inline;
     justify-content: center;     
 }
