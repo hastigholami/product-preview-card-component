@@ -9,15 +9,15 @@ body {
 
 .product-preview {
     background-color: hsl(0, 0%, 100%);
-    width: 670px;
-    height: 500px;
+    width: 640px;
+    height: 470px;
     display: flex;
+    flex-direction: row;
     border-radius: 10px;
 }
 
 .product-image {
-    width: 500px;
-    height: 500px;
+    height: 470px;
     display: flex;
     border-radius: 10px;
 }
@@ -40,25 +40,39 @@ img {
 
 .product-name {
     color: hsl(212, 21%, 14%);
-    margin: 0px 0px;
-    font-size: 45px;
+    margin: 0px;
+    font-size: 30px;
     font-weight: bold;
     font-family: "Fraunces", serif;
+    line-height: 30px;
     
 }
 
 .perfume-note {
     color: hsl(228, 12%, 48%);
-    margin: 20px 0px;
+    margin: 0px;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
+    line-height: 25px;
 }
 
 .product-price {
+    font-family: "Fraunces", serif;
+    display: flex;
+    align-items: center;
+}
+
+.old-price {
+    color: hsl(228, 12%, 48%);
+    font-size: 15px;
+    margin: 20px;
+}
+
+.new-price {
     color: hsl(158, 36%, 37%);
     font-size: 28px;
-    font-family: "Fraunces", serif;
     font-weight: bold;
+    margin: 20px 0px;
 }
 
 button {
@@ -67,14 +81,13 @@ button {
     font-size: 15px;
     font-weight: 500;
     font-family: "Montserrat", sans-serif;
-    padding: 15px 82px;
-    display: inline;
-    justify-content: center;
+    padding: 8px 62px;
+    display: flex;
+    align-items: center;
     border: solid;
     border-radius: 10px;
 }
 
 .add-to-card-icon {
-    display: inline;
-    justify-content: center;     
+    padding: 8px 15px 8px 8px;
 }
