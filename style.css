@@ -4,33 +4,56 @@ body {
 
 .product-preview {
     background-color: hsl(0, 0%, 100%);
+    width: 670px;
+    height: 500px;
+    display: flex;
 }
 
 .product-image {
-
+    width: 500px;
+    height: 500px;
+    display: flex;
 }
 
+
 .product-info {
+    padding: 30px;
 
 }
 
 .product-type {
     color: hsl(228, 12%, 48%);
+    margin: 0px;
 }
 
 .product-name {
     color: hsl(212, 21%, 14%);
+    margin: 10px 0px;
+    font-size: 45px;
+    font-weight: bold;
+    
 }
 
 .perfume-note {
     color: hsl(228, 12%, 48%);
+    margin: 20px 0px;
 }
 
 .product-price {
     color: hsl(158, 42%, 18%);
+    font-size: 30px;
 }
 
 button {
     background-color: hsl(158, 42%, 18%);
     color: hsl(158, 36%, 37%);
+    font-size: 20px;
+    padding: 15px 70px;
+    display: inline;
+    justify-content: center;
+}
+.add-to-card-icon {
+    margin: 5px;
+    display: inline;
+    justify-content: center;     
 }
